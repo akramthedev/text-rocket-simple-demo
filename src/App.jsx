@@ -8,10 +8,6 @@ function App() {
   
   return (
     <Router>
-      <nav>
-        <Link to="/">Upload</Link> | 
-      </nav>
-
       <Routes>
         <Route path="/" element={<Upload />} />
       </Routes>
