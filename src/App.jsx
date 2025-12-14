@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import UPLOAD_CSV_PAGE from './Views/UPLOAD_CSV_PAGE';
+import Upload from './Views/Upload';
 import "./App.css";
 
 
@@ -13,7 +13,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<UPLOAD_CSV_PAGE />} />
+        <Route path="/" element={<Upload />} />
       </Routes>
     </Router>
   );

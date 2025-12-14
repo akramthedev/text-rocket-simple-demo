@@ -8,7 +8,7 @@ import  {
 
 
  
-const UPLOAD_CSV_PAGE = () => {
+const Upload = () => {
 
   const now = () => new Date().toISOString();
 
@@ -512,4 +512,4 @@ const UPLOAD_CSV_PAGE = () => {
 };
 
 
-export default UPLOAD_CSV_PAGE;
+export default Upload;
